@@ -1,0 +1,4 @@
+category: Python
+requires: cygwin openssl python
+sdesc: "Python OpenSSL bindings"
+ldesc: "Python OpenSSL bindings"

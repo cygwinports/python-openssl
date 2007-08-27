@@ -1,0 +1,70 @@
+python-openssl
+------------------------------------------
+Python OpenSSL bindings
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  openssl-0.9.8e-3
+  python-2.5.1-3
+
+Build requirements:
+  cygwin-1.5.24-2
+  binutils-20060817-1
+  cygport-0.3.5-1
+  gcc-core-3.4.4-3
+  python-2.5.1-3
+  python-setuptools-0.6c6-1
+
+Canonical website:
+  http://pyopenssl.sourceforge.net/
+
+Canonical download:
+  http://downloads.sourceforge.net/pyopenssl/
+
+-------------------------------------------
+
+Build instructions:
+  unpack python-openssl-0.6-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./python-openssl-0.6-X.cygport all
+
+This will create:
+  /usr/src/python-openssl-0.6-X-src.tar.bz2
+  /usr/src/python-openssl-0.6-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/python2.5/site-packages/OpenSSL/SSL.dll
+  /usr/lib/python2.5/site-packages/OpenSSL/__init__.py
+  /usr/lib/python2.5/site-packages/OpenSSL/__init__.pyc
+  /usr/lib/python2.5/site-packages/OpenSSL/__init__.pyo
+  /usr/lib/python2.5/site-packages/OpenSSL/crypto.dll
+  /usr/lib/python2.5/site-packages/OpenSSL/rand.dll
+  /usr/lib/python2.5/site-packages/OpenSSL/tsafe.py
+  /usr/lib/python2.5/site-packages/OpenSSL/tsafe.pyc
+  /usr/lib/python2.5/site-packages/OpenSSL/tsafe.pyo
+  /usr/lib/python2.5/site-packages/OpenSSL/version.py
+  /usr/lib/python2.5/site-packages/OpenSSL/version.pyc
+  /usr/lib/python2.5/site-packages/OpenSSL/version.pyo
+  /usr/lib/python2.5/site-packages/pyOpenSSL-0.6-py2.5.egg-info
+  /usr/share/doc/Cygwin/python-openssl-0.6.README
+  /usr/share/doc/python-openssl-0.6/COPYING
+  /usr/share/doc/python-openssl-0.6/ChangeLog
+  /usr/share/doc/python-openssl-0.6/INSTALL
+  /usr/share/doc/python-openssl-0.6/README
+  /usr/share/doc/python-openssl-0.6/TODO
+
+------------------
+
+Port Notes:
+
+----- version 0.6-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
