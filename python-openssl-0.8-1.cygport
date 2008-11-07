@@ -1,6 +1,6 @@
+ORIG_PN="pyOpenSSL"
 inherit distutils
 
 DESCRIPTION="Python OpenSSL bindings"
 HOMEPAGE="http://pyopenssl.sourceforge.net/"
-SRC_URI="mirror://sourceforge/${ORIG_PN}/pyOpenSSL-${PV}.tar.gz"
-SRC_DIR="pyOpenSSL-${PV}"
+SRC_URI="mirror://sourceforge/pyopenssl/${ORIG_PN}-${PV}.tar.gz"
