@@ -3,16 +3,16 @@ python-openssl
 Python OpenSSL bindings
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  openssl-0.9.8i-1
-  python-2.5.2-3
+  cygwin-1.7.0-44
+  libgcc1-4.3.2-2
+  openssl-0.9.8k-2
+  python-2.5.4-10
 
 Build requirements:
 (besides corresponding devel packages)
   binutils-20080624-2
-  cygport-0.4.2-1
-  gcc-core-3.4.4-3
-  python-setuptools-0.6c6-1
+  cygport-0.9.6-1
+  gcc4-core-4.3.2-2
 
 Canonical website:
   http://pyopenssl.sourceforge.net/
@@ -59,24 +59,17 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/OpenSSL/version.pyc
   /usr/lib/python2.5/site-packages/OpenSSL/version.pyo
   /usr/lib/python2.5/site-packages/pyOpenSSL-0.8-py2.5.egg-info
-  /usr/share/doc/python-openssl-0.8/COPYING
-  /usr/share/doc/python-openssl-0.8/ChangeLog
-  /usr/share/doc/python-openssl-0.8/INSTALL
-  /usr/share/doc/python-openssl-0.8/README
-  /usr/share/doc/python-openssl-0.8/TODO
+  /usr/share/doc/python-openssl/COPYING
+  /usr/share/doc/python-openssl/ChangeLog
+  /usr/share/doc/python-openssl/README
+  /usr/share/doc/python-openssl/TODO
 
 ------------------
 
 Port Notes:
 
------ version 0.8-1 -----
-Version bump.
-
------ version 0.7-1 -----
-Version bump.
-
------ version 0.6-1 -----
-Initial release for Cygwin.
+----- version 0.8-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:

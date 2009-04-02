@@ -1,4 +1,4 @@
 category: Python
-requires: cygwin openssl python
+requires: cygwin libgcc1 openssl python
 sdesc: "Python OpenSSL bindings"
 ldesc: "Python OpenSSL bindings"
