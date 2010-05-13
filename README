@@ -3,16 +3,16 @@ python-openssl
 Python OpenSSL bindings
 
 Runtime requirements:
-  cygwin-1.7.0-45
-  libgcc1-4.3.2-2
-  openssl-0.9.8k-2
-  python-2.5.4-10
+  cygwin-1.7.5-1
+  libgcc1-4.3.4-3
+  openssl-0.9.8n-1
+  python-2.6.5-1
 
 Build requirements:
 (besides corresponding devel packages)
-  binutils-20080624-2
-  cygport-0.9.6-1
-  gcc4-core-4.3.2-2
+  binutils-2.20.51-2
+  cygport-0.9.83-1
+  gcc4-core-4.3.4-3
 
 Canonical website:
   http://pyopenssl.sourceforge.net/
@@ -23,50 +23,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack python-openssl-0.9-X-src.tar.bz2
+  unpack python-openssl-0.10-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./python-openssl-0.9-X.cygport all
+  cygport ./python-openssl-0.10-X.cygport all
 
 This will create:
-  /usr/src/python-openssl-0.9-X-src.tar.bz2
-  /usr/src/python-openssl-0.9-X.tar.bz2
+  /usr/src/python-openssl-0.10-X-src.tar.bz2
+  /usr/src/python-openssl-0.10-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/lib/python2.5/site-packages/OpenSSL/SSL.dll
-  /usr/lib/python2.5/site-packages/OpenSSL/__init__.py
-  /usr/lib/python2.5/site-packages/OpenSSL/__init__.pyc
-  /usr/lib/python2.5/site-packages/OpenSSL/__init__.pyo
-  /usr/lib/python2.5/site-packages/OpenSSL/crypto.dll
-  /usr/lib/python2.5/site-packages/OpenSSL/rand.dll
-  /usr/lib/python2.5/site-packages/OpenSSL/test/__init__.py
-  /usr/lib/python2.5/site-packages/OpenSSL/test/__init__.pyc
-  /usr/lib/python2.5/site-packages/OpenSSL/test/__init__.pyo
-  /usr/lib/python2.5/site-packages/OpenSSL/test/test_crypto.py
-  /usr/lib/python2.5/site-packages/OpenSSL/test/test_crypto.pyc
-  /usr/lib/python2.5/site-packages/OpenSSL/test/test_crypto.pyo
-  /usr/lib/python2.5/site-packages/OpenSSL/test/test_ssl.py
-  /usr/lib/python2.5/site-packages/OpenSSL/test/test_ssl.pyc
-  /usr/lib/python2.5/site-packages/OpenSSL/test/test_ssl.pyo
-  /usr/lib/python2.5/site-packages/OpenSSL/tsafe.py
-  /usr/lib/python2.5/site-packages/OpenSSL/tsafe.pyc
-  /usr/lib/python2.5/site-packages/OpenSSL/tsafe.pyo
-  /usr/lib/python2.5/site-packages/OpenSSL/version.py
-  /usr/lib/python2.5/site-packages/OpenSSL/version.pyc
-  /usr/lib/python2.5/site-packages/OpenSSL/version.pyo
-  /usr/lib/python2.5/site-packages/pyOpenSSL-0.9-py2.5.egg-info
-  /usr/share/doc/python-openssl/COPYING
-  /usr/share/doc/python-openssl/ChangeLog
-  /usr/share/doc/python-openssl/README
-  /usr/share/doc/python-openssl/TODO
-
-------------------
-
 Port Notes:
+
+----- version 0.10-1 -----
+Version bump, built for Python 2.6.
 
 ----- version 0.9-1 -----
 Version bump.
