@@ -1,4 +1,4 @@
 category: Python
-requires: libopenssl098 python
+requires: libopenssl100 python
 sdesc: "Python OpenSSL bindings"
 ldesc: "Python OpenSSL bindings"
