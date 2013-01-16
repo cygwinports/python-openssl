@@ -1,4 +1,0 @@
-category: Python
-requires: libopenssl100 python
-sdesc: "Python OpenSSL bindings"
-ldesc: "Python OpenSSL bindings"

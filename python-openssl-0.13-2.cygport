@@ -1,5 +1,0 @@
-ORIG_PN="pyOpenSSL"
-inherit distutils
-
-DESCRIPTION="Python OpenSSL bindings"
-HOMEPAGE="http://launchpad.net/pyopenssl"
