@@ -2,8 +2,8 @@ ORIG_PN="pyOpenSSL"
 inherit distutils
 
 NAME="python-openssl"
-VERSION=0.13
-RELEASE=3
+VERSION=0.13.1
+RELEASE=1
 CATEGORY="Python"
 SUMMARY="Python OpenSSL bindings"
-DESCRIPTION="Python OpenSSL bindings"
+DESCRIPTION="Python wrapper module around the OpenSSL library"
