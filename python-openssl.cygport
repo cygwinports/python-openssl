@@ -1,8 +1,8 @@
 ORIG_PN="pyOpenSSL"
-inherit python-distutils
+inherit python-wheel
 
 NAME="python-openssl"
-VERSION=0.15.1
+VERSION=16.2.0
 RELEASE=1
 CATEGORY="Python"
 SUMMARY="Python OpenSSL bindings"
