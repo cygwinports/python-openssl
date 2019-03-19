@@ -2,7 +2,7 @@ ORIG_PN="pyOpenSSL"
 inherit python-wheel
 
 NAME="python-openssl"
-VERSION=16.2.0
+VERSION=19.0.0
 RELEASE=1
 CATEGORY="Python"
 SUMMARY="Python OpenSSL bindings"
